@@ -1,0 +1,255 @@
+body{
+    font-family:'Roboto', sans-serif;
+    margin: 0px;
+}
+a{ text-decoration:none ;}
+
+
+/*! header */
+
+.header{
+   border:4px solid black;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: space-between;
+   height: 50px;
+   width: 100%;
+   margin: 0px auto;
+}
+.logo{
+    margin-left: 80px;
+    display: inline-block;
+    align-items: center;
+}
+.menu1{
+    margin-right: 80px;
+    display: inline-block ;
+    position: static;
+}
+.header .menu li {
+    padding: 10px;
+    display:inline-block;
+    font-weight: 600
+}
+.header .menu li a{
+    color: black;
+    display: flex;
+    }
+.img1{
+    padding: 0px 4px 0px 4px;
+}
+
+/*! hero */
+
+.hero{
+   margin: 40px 80px 0px 80px;
+}
+.contenitore{
+    display: flex;
+    align-items:flex-end ;
+}
+.texthero {
+    padding-bottom: -20px;
+    width: 50%;
+}
+.texthero h1{
+font-size: 50px;  
+margin-bottom: -15px;
+}
+.texthero h3{
+    font-size: 25px;
+}
+
+.heroimg{
+    width: 50%;
+   display: flex;
+    object-fit: contain;
+}
+.listapaesi{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.lista li h3{
+    font-weight: 300;
+    color:#E6AA68;
+     }
+.lista li{
+    display: inline-flex;
+    padding: 10px; 
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+}
+.beige h3{
+    color: #E6AA68 ;
+    display: flex;    
+}
+
+/*! contenuto */
+
+.contenuto1 {
+    margin: 120px 80px 0px 80px;
+    display: flex;
+}
+.imgindia{
+    margin: 0px;
+}
+.paese1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 300px ;
+     width: 100%;
+     position: absolute;
+     margin-left: 670px;
+}
+.india{
+font-size: 25px;
+font-weight: 600;
+ margin-top: -40px;
+}
+.cerchiorosso{
+    z-index: -1;
+    grid-column: 2;
+    margin-left: -36px;
+}
+.testoindia{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 150px;
+}
+.contenuto2{
+    margin: 240px 80px 0px 80px;
+    display: flex;
+}
+.testomarocco{
+     display: flex;
+     align-items: flex-end;
+     padding-bottom: 150px;
+     width: 100%;
+}
+.paese2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 300px ;
+    position: absolute;
+    margin-left: 350px;
+}
+.marocco{
+    font-size: 25px;
+    font-weight: 600;
+     margin-bottom: 100px;
+     margin-left: 40px;
+}
+.cerchiorosso2{
+     z-index: -1;
+     grid-column: 2;
+     margin-right: -100px;
+     margin-top: -10px;
+}
+.imgmarocco{
+     display: flex;
+      justify-content: flex-end;
+     margin-top: -50px;
+}
+.cards{
+    margin: 240px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    border: 3px solid black; 
+}
+.p1{
+    border-top: 3px solid black;
+    padding-left: 40px;
+}
+.card2{
+    border: 3px solid black; 
+}
+.p2{
+    border-top: 3px solid black;
+    padding-left:40px ;
+}
+.card3{
+    border: 3px solid black; 
+}
+.p3{
+    border-top: 3px solid black;
+    padding-left:40px ;
+}
+.contenuto3 {
+    margin: 240px 80px 0px 80px;
+    display: flex;
+}
+.imggiappo{
+    margin: 0px;
+}
+.paese3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 300px ;
+     width: 100%;
+     position: absolute;
+     margin-left: 670px;
+}
+.giappone{
+font-size: 25px;
+font-weight: 600;
+ margin-top: -40px;
+}
+.cerchiorosso3{
+    z-index: -1;
+    grid-column: 2;
+    margin-left: -36px;
+}
+.testogiappone{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+/*! footer */
+
+.footer{
+    border:4px solid black;
+    background-color: #009FB7;
+    display: inline-block ;
+    position: static;
+    align-content: center;
+    justify-content: center;
+    height:50%;
+    width: 100%;
+    margin: 0px auto;
+}
+.icone{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    width: 40px auto;
+}
+.testofine{
+    display: flex;
+    justify-content: center;
+}
+.icopyright{
+    display: flex;
+}
+.testofine .icopyright{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    
+
